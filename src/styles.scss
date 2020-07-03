@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+  min-height: 100%;
+}
+
+.logo{
+  background-size: cover;
+  background: url("~assets/images/bg_1.jpg") center center;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}

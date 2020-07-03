@@ -1,0 +1,40 @@
+<div class="row no-gutters justify-content-center">
+
+  <div class="col-11 col-xl-6 col-lg-8" style="margin-top: 70px">
+    <article *ngFor="let post of posts" style="width: 600px">
+    <img style="height: 400px" src="assets/images/image_{{post.numberPhoto}}.jpg">
+    <h2>{{post.header}}</h2>
+    <br/>
+    <span>{{post.text}}</span>
+
+    <div class="author">
+      <div style="width: 60px; float: left; margin-right: 10px">
+        <img src="assets/images/person_1.jpg">
+      </div>
+
+      <div style="color: #a4a4a4; float: left">
+        Written by <br/>
+        <span style="color: black; font-weight: 700; text-decoration: underline">{{post.author}}</span>, {{post.data}}
+      </div>
+
+      <div style="float:right; margin-top: 20px">
+        <i class="icon-heart">3</i>
+        <i class="icon-eye">100</i>
+        <i class="icon-comment">5</i>
+      </div>
+
+      <div style="clear: both"></div>
+    </div>
+
+    </article>
+  </div>
+
+  <div class=" d-none d-xl-block col-xl-3 categoryHidden">
+    <app-categories></app-categories>
+  </div>
+
+</div>
+
+
+
+

@@ -1,0 +1,38 @@
+<nav class="navbar" style="position: fixed">
+  <ul>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact: true}">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/fashion" routerLinkActive="active">Fashion</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/travel" routerLinkActive="active">Travel</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="logo" style="position: fixed">
+  <h2>Andrea</h2>
+  <span>Moore</span>
+</div>
+
+
+<article style="position: fixed">
+  <h6>Subscribe for newsletter</h6>
+
+    <input #email (keyup.enter)="onSubmit(email.value)" name="email" type="text" ngModel email required placeholder="Enter Email Address"><br/>
+  <div class="copy">Copyright ©2020 All rights reserved |</div>
+</article>
+

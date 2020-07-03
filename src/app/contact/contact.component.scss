@@ -1,0 +1,42 @@
+.contact{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 7%;
+
+  h3{
+    font-family: Palatino;
+  }
+}
+
+span{
+  color: #494949;
+}
+
+
+form{
+  input{
+    width: 100%;
+    padding: 5%;
+    height: 50px;
+    outline: none;
+    margin-bottom: 10px;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 5%;
+    height: 140px;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+  }
+}
+
+
+button{
+  width: 80%;
+  height: 60px;
+  background-color: #1fa9f4;
+  color: white;
+  border-radius: 30px;
+}

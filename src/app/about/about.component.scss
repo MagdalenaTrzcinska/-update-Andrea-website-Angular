@@ -1,0 +1,25 @@
+img{
+  height: 100vh;
+  width: 100%;
+}
+
+.about{
+  margin-left: 5%;
+  font-family: "Andale Mono";
+  color: #494949;
+  letter-spacing: -1px;
+  font-size: 15px;
+
+  h1{
+    margin-top: 65%;
+    font-size: 55px;
+    font-family: Palatino;
+    font-weight: 900;
+
+    span{
+      background-color: white;
+      color: #1f9ee8;
+
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.x{
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+  left:0;
+}
+
+@media (max-width: 991px){
+  .x{
+    visibility: visible;
+  }
+}
+
+
+i{
+  font-size: 30px;
+}

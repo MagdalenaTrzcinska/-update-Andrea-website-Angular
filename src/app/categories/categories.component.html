@@ -1,0 +1,84 @@
+<div class="categories">
+
+  <input [(ngModel)]="filteredStatus" placeholder="Type a keyword"><br/>
+
+
+  <h5>Categories</h5>
+
+    <div *ngFor="let category of categories" class="category">
+      <div class="cat">
+        {{category.name}} <span>({{category.account}})</span>
+      </div>
+    </div>
+
+
+
+
+  <div class="popularArticles">
+    <h5>Popular Articles</h5>
+
+    <div style="height: 150px; margin-right: 12%" *ngFor="let popular of popularArticles">
+      <div class="photo">
+        <img src="assets/images/image_{{popular.img}}.jpg">
+      </div>
+
+      <div class="text">
+        {{popular.name}}
+
+
+        <div class="date">
+          <i class="icon-calendar">{{popular.date}}</i>
+        </div>
+
+        <div class="author">
+          <i class="icon-user">{{popular.author}}</i>
+          <i class="icon-comment">{{popular.comments}}</i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tagCloud">
+    <h5>Tag Cloud</h5>
+
+    <div *ngFor="let tag of tags" class="tag">
+      <div class="tagDetail">
+        {{tag}}
+      </div>
+    </div>
+  </div>
+
+  <div style="clear: both"></div>
+
+
+  <div class="newsletter">
+    <img src="assets/images/bg_1.jpg">
+
+
+    <div style="position: absolute; top:30px; left: 20px">
+      <h5>Newsletter</h5>
+      Far far away, behind the word mountains, far from the countries Vokalia
+
+      <br/>
+      <input #email required placeholder="Email Address">
+      <button class="btn btn-light" (click)="onSubmit(email.value)">Subscribe</button>
+    </div>
+  </div>
+
+
+
+
+  <div class="archives">
+    <h5>Archives</h5>
+
+    <div *ngFor="let i of [1,2,3,4,5,6]" class="category">
+      <div class="cat">
+        Fashion <span>(6)</span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>

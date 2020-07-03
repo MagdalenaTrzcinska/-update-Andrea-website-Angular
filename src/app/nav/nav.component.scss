@@ -1,0 +1,133 @@
+nav {
+  margin-top: 50px;
+  margin-left: -30px;
+
+  li {
+    height: 40px;
+    list-style-type: none;
+
+    a {
+      color: #494949;
+      font-family: "Andale Mono";
+      font-weight: bold;
+      font-size: 17px;
+
+
+    }
+
+  }
+}
+
+
+/////////
+.active {
+  color: #1f9ee8 !important;
+}
+
+.active:after {
+  content: '';
+  display: block;
+
+  height: 2px;
+  background-color: #1f9ee8;
+  transform: scaleX(1);
+}
+
+a:after {
+  content: '';
+  display: block;
+
+  height: 2px;
+  background-color: #1f9ee8;
+  transform: scaleX(0);
+}
+
+a:hover:after {
+  content: '';
+  display: block;
+  text-align: center;
+  height: 2px;
+  background-color: #1f9ee8;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scaleX(1);
+}
+
+
+/////
+
+.logo {
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+
+
+
+  h2 {
+    font-weight: 900;
+    font-size: 70px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    margin-left: 10px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+    margin-bottom: -45px;
+
+
+  }
+  span{
+
+    font-weight: 900;
+    font-size: 70px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    margin-left: 10px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+  }
+
+
+}
+
+
+article {
+  width: 450px;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 20px;
+
+
+  h6 {
+
+    font-family: Palatino;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+
+
+  input{
+   position: absolute;
+    bottom: 40px;
+   left: 50%;
+    transform: translateX(-50%);
+
+    width: 100%;
+    padding: 7px;
+    height: 50px;
+    outline: none;
+    border: #1f9ee8 1px solid;
+    margin-bottom: 20px;
+  }
+
+
+  .copy{
+    width: 90%;
+    font-size: 15px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+
+
+  }
+
+
+}
+
+
