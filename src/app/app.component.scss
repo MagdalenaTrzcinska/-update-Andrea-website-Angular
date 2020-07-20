@@ -1,17 +1,16 @@
-.x{
+.x {
   visibility: hidden;
   position: absolute;
   z-index: 2;
-  left:0;
+  left: 0;
 }
 
-@media (max-width: 991px){
-  .x{
+@media (max-width: 991px) {
+  .x {
     visibility: visible;
   }
 }
 
-
-i{
+i {
   font-size: 30px;
 }

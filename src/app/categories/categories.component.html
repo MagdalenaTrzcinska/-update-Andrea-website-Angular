@@ -1,18 +1,12 @@
-<div class="categories">
-
+<article class="categories">
   <input [(ngModel)]="filteredStatus" placeholder="Type a keyword"><br/>
 
-
   <h5>Categories</h5>
-
     <div *ngFor="let category of categories" class="category">
-      <div class="cat">
+      <div class="singleCategory">
         {{category.name}} <span>({{category.account}})</span>
       </div>
     </div>
-
-
-
 
   <div class="popularArticles">
     <h5>Popular Articles</h5>
@@ -24,7 +18,6 @@
 
       <div class="text">
         {{popular.name}}
-
 
         <div class="date">
           <i class="icon-calendar">{{popular.date}}</i>
@@ -47,13 +40,9 @@
       </div>
     </div>
   </div>
-
   <div style="clear: both"></div>
-
-
   <div class="newsletter">
     <img src="assets/images/bg_1.jpg">
-
 
     <div style="position: absolute; top:30px; left: 20px">
       <h5>Newsletter</h5>
@@ -65,20 +54,12 @@
     </div>
   </div>
 
-
-
-
   <div class="archives">
     <h5>Archives</h5>
-
     <div *ngFor="let i of [1,2,3,4,5,6]" class="category">
-      <div class="cat">
+      <div class="singleCategory">
         Fashion <span>(6)</span>
       </div>
     </div>
   </div>
-
-
-
-
-</div>
+</article>

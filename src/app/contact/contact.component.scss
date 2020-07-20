@@ -1,4 +1,4 @@
-.contact{
+.contactInfo{
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 7%;
@@ -8,35 +8,50 @@
   }
 }
 
-span{
-  color: #494949;
-}
+.contactInfoDisplay {
+  background-color: #f6f7f9;
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
 
-
-form{
-  input{
-    width: 100%;
-    padding: 5%;
-    height: 50px;
-    outline: none;
-    margin-bottom: 10px;
-  }
-
-  textarea{
-    width: 100%;
-    padding: 5%;
-    height: 140px;
-    margin-bottom: 10px;
-    outline: none;
-    resize: none;
+  span{
+    color: #494949;
   }
 }
 
+.messaging {
+  background-color: #f6f7f9;
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  height: 500px;
 
-button{
-  width: 80%;
-  height: 60px;
-  background-color: #1fa9f4;
-  color: white;
-  border-radius: 30px;
+  form {
+    input{
+      width: 100%;
+      padding: 5%;
+      height: 50px;
+      outline: none;
+      margin-bottom: 10px;
+    }
+
+    textarea{
+      width: 100%;
+      padding: 5%;
+      height: 140px;
+      margin-bottom: 10px;
+      outline: none;
+      resize: none;
+    }
+  }
+
+  button{
+    width: 80%;
+    height: 60px;
+    background-color: #1fa9f4;
+    color: white;
+    border-radius: 30px;
+  }
 }
+
+

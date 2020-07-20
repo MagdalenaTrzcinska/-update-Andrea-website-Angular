@@ -1,30 +1,28 @@
-img{
+img {
   width: 100%;
 }
 
-h2{
-  font-family: Palatino;
-  margin-top: 35px;
-}
+article {
+  h2 {
+    font-family: Palatino;
+    margin-top: 35px;
+  }
 
-span{
-  color: #535353;
-}
+  .author {
+    margin-top: 20px;
 
+    img {
+      border-radius: 35px;
+    }
+  }
 
-.author{
-  margin-top: 20px;
-
-
-  img{
-    border-radius: 35px;
+  span {
+    color: #535353;
   }
 }
 
 
-
-i{
+i {
   color: #a4a4a4;
   margin-right: 10px;
-
 }
